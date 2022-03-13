@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: 0.9;
+    margin: auto;
+    border: none;
+    background-color: #202124;
+    color: white;
+
+}
+main{
+    padding: 20px;
+	width: 45vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.inputUser{
+    border: 1px solid rgb(15, 3, 138);
+    padding: 10px;
+    border-radius: 50px;
+    width: 40vw;
+    background-color: rgba(20, 0, 118, 0.441);
+}
+.labelInput{
+    font-size: 20px;
+}
+
+legend{
+    font-size: 45px;
+}
+#genderbox{
+   
+    padding: 10px;
+    border-radius: 50px;
+    width: 40vw;
+    display: inline-block;
+    background-color: rgba(20, 0, 118, 0.441);
+
+}
+#submit{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 50px;
+    width: 41.5vw;
+    display: inline-block;
+    background-color: purple;
+    color: white;
+}
+#feminino, #outro{
+
+    text-decoration: none;
+}
+@media (max-width:850px) {
+
+   main{
+        width: 100%;
+   }
+   .inputUser{
+    border: 1px solid rgb(15, 3, 138);
+    padding: 10px;
+    border-radius: 50px;
+    width: 70vw;
+    background-color: rgba(20, 0, 118, 0.441);
+   }
+   #genderbox{
+   
+    padding: 10px;
+    border-radius: 50px;
+    width: 72vw;
+    display: inline-block;
+    margin: 50;
+    background-color: rgba(20, 0, 118, 0.441);
+   }
+   #feminino, #outro{
+    margin-left: 10px;
+    text-decoration: none;
+   }
+   span{
+       font-size: 20px;
+   }
+   legend{
+    font-size: 60px;
+    margin-left: 25%;
+   }
+   #submit{
+    width: 75vw;
+   }
+}
+@media (max-width:800px) {
+    legend{
+    font-size: 60px;
+    margin-left: 20%;
+    }
+}
+
+@media (max-width:520px){
+    legend{
+        font-size: 60px;
+        margin-left: 10%;
+    }
+}
